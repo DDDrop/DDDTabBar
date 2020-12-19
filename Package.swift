@@ -6,9 +6,9 @@ import PackageDescription
 let package = Package(
     name: "DDDTabBar",
     platforms: [
-        .iOS(.v14),
+        .iOS(.v13),
         .macOS(.v10_15),
-        .tvOS(.v14),
+        .tvOS(.v13),
         .watchOS(.v7)
     ],
     products: [
